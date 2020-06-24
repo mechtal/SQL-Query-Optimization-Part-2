@@ -94,3 +94,6 @@ go
 ```
 ![image](https://github.com/mechtal/part2/blob/master/DIS_res_3.png?raw=true)
 ![image](https://github.com/mechtal/part2/blob/master/DIS_res_3_ext.png?raw=true)
+```sql
+create nonclustered index ix_is_autoimmune_disease on DIAGNOSIS(is_autoimmune_disease)
+```
