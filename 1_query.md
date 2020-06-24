@@ -25,3 +25,7 @@ go
 
 ![image](https://github.com/mechtal/part2/blob/master/DOCT_3.png?raw=true)
 ![image](https://github.com/mechtal/part2/blob/master/DOCT_plan_ext_3.png?raw=true)
+
+### The difference
+Index Seek -> Index Scan
+nothing -> CONVERT_IMPLICIT(nvarchar, first_name)
