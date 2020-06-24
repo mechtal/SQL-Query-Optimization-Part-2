@@ -59,7 +59,7 @@ add constraint FK_dbo_DIAGNOSIS_doctor_id foreign key (doctor_id)
 references DOCTOR(doctor_id)
 ```
 ### The difference
-first_name varchar(20) -> first_name varchar(20)
+first_name nvarchar(20) -> first_name varchar(20)
 
-last_name varchar(20) -> last_name varchar(20)
+last_name nvarchar(20) -> last_name varchar(20)
 
