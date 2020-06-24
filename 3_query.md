@@ -5,6 +5,8 @@ go
 set statistics xml on
 go
 -----------------------------------------
+use HOUSE_3
+go
 select dct.last_name + ', ' + dct.first_name as full_name
 from DOCTOR as dct
 where dct.first_name = N'Gregory'
