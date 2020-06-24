@@ -28,6 +28,7 @@ go
 ### The HOUSE_4
 ![image](https://github.com/mechtal/part2/blob/master/DOCT_plan_4.png?raw=true)
 ![image](https://github.com/mechtal/part2/blob/master/DOCT_4.png?raw=true)
+![image](https://github.com/mechtal/part2/blob/master/DOCT_plan_ext_4.png?raw=true)
 
 ### The difference
 (1-2) Index Seek -> Index Scan
