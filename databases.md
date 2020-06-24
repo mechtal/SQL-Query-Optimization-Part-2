@@ -107,4 +107,18 @@ create nonclustered index ix_inn on DOCTOR(inn)
 (1-2&3) last_name nvarchar(20) -> last_name varchar(20)
 
 (2-3) collate https://docs.microsoft.com/en-us/sql/relational-databases/collations/set-or-change-the-database-collation?view=sql-server-ver15
+```sql
+select TABLE_NAME, COLUMN_NAME, COLLATION_NAME
+from HOUSE_2.INFORMATION_SCHEMA.COLUMNS
+where TABLE_NAME = 'DOCTOR'
+
+select TABLE_NAME, COLUMN_NAME, COLLATION_NAME
+from HOUSE_3.INFORMATION_SCHEMA.COLUMNS
+where TABLE_NAME = 'DOCTOR'
+
+select TABLE_NAME, COLUMN_NAME, COLLATION_NAME
+from HOUSE_4.INFORMATION_SCHEMA.COLUMNS
+where TABLE_NAME = 'DOCTOR'
+```
+![image](https://github.com/mechtal/part2/blob/master/collate.png?raw=true)
 
