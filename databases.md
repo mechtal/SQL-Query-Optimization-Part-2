@@ -27,6 +27,8 @@ go
 alter table DIAGNOSIS 
 add constraint FK_dbo_DIAGNOSIS_doctor_id foreign key (doctor_id)
 references DOCTOR(doctor_id)
+go
+create nonclustered index ix_name on DOCTOR(first_name)
 ```
 ### The second
 ```sql
@@ -57,6 +59,8 @@ go
 alter table DIAGNOSIS 
 add constraint FK_dbo_DIAGNOSIS_doctor_id foreign key (doctor_id)
 references DOCTOR(doctor_id)
+go
+create nonclustered index ix_name on DOCTOR(first_name)
 ```
 ### The difference
 first_name nvarchar(20) -> first_name varchar(20)
