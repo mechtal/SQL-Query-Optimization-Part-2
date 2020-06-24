@@ -33,10 +33,14 @@ go
 create nonclustered index ix_inn on DOCTOR(inn)
 go
 create function dbo.is_autoimmune_disease(@disease_id int)
-returns INT
+returns int 
 as
 begin
-return 1
+declare @result int = 0
+
+if @disease_id in (10,12,33)
+select @result = 1
+return @result
 end
 ```
 ### The second
@@ -74,10 +78,14 @@ go
 create nonclustered index ix_inn on DOCTOR(inn)
 go
 create function dbo.is_autoimmune_disease(@disease_id int)
-returns INT
+returns int 
 as
 begin
-return 1
+declare @result int = 0
+
+if @disease_id in (10,12,33)
+select @result = 1
+return @result
 end
 ```
 ### The third
@@ -116,10 +124,14 @@ go
 create nonclustered index ix_inn on DOCTOR(inn)
 go
 create function dbo.is_autoimmune_disease(@disease_id int)
-returns INT
+returns int 
 as
 begin
-return 1
+declare @result int = 0
+
+if @disease_id in (10,12,33)
+select @result = 1
+return @result
 end
 ```
 ### The difference
