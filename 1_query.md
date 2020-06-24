@@ -28,4 +28,5 @@ go
 
 ### The difference
 Index Seek -> Index Scan
+
 nothing -> CONVERT_IMPLICIT(nvarchar, first_name)
