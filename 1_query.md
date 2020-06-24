@@ -14,14 +14,14 @@ set statistics xml off
 go
 -----------------------------------------
 ```
-![image](https://github.com/mechtal/plans/blob/master/DOCT_plan.png?raw=true)
+![image](https://github.com/mechtal/part2/blob/master/DOCT_plan.png?raw=true)
 
 ### The HOUSE_2
 
-![image](https://github.com/mechtal/plans/blob/master/DOCT_2.png?raw=true)
-![image](https://github.com/mechtal/plans/blob/master/DOCT_plan_ext_2.png?raw=true)
+![image](https://github.com/mechtal/part2/blob/master/DOCT_2.png?raw=true)
+![image](https://github.com/mechtal/part2/blob/master/DOCT_plan_ext_2.png?raw=true)
 
 ### The HOUSE_3
 
-![image](https://github.com/mechtal/plans/blob/master/DOCT_3.png?raw=true)
-![image](https://github.com/mechtal/plans/blob/master/DOCT_plan_ext_3.png?raw=true)
+![image](https://github.com/mechtal/part2/blob/master/DOCT_3.png?raw=true)
+![image](https://github.com/mechtal/part2/blob/master/DOCT_plan_ext_3.png?raw=true)
