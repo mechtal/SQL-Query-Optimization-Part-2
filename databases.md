@@ -31,6 +31,13 @@ go
 create nonclustered index ix_name on DOCTOR(first_name)
 go 
 create nonclustered index ix_inn on DOCTOR(inn)
+go
+create function dbo.is_autoimmune_disease(@disease_id int)
+returns INT
+as
+begin
+return 1
+end
 ```
 ### The second
 ```sql
@@ -65,6 +72,13 @@ go
 create nonclustered index ix_name on DOCTOR(first_name)
 go 
 create nonclustered index ix_inn on DOCTOR(inn)
+go
+create function dbo.is_autoimmune_disease(@disease_id int)
+returns INT
+as
+begin
+return 1
+end
 ```
 ### The third
 ```sql
@@ -100,6 +114,13 @@ go
 create nonclustered index ix_name on DOCTOR(first_name)
 go 
 create nonclustered index ix_inn on DOCTOR(inn)
+go
+create function dbo.is_autoimmune_disease(@disease_id int)
+returns INT
+as
+begin
+return 1
+end
 ```
 ### The difference
 (1-2&3) first_name nvarchar(20) -> first_name varchar(20)
